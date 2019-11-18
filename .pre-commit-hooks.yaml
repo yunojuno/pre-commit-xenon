@@ -1,9 +1,6 @@
--   id: xenon-cc
-    name: Xenon CC
-    description: Calculates Cyclomatic Complexity and fails any value < A.
+-   id: xenon
+    name: Xenon (Radon CI)
+    description: Calculates Cyclomatic Complexity using Radon
     entry: xenon
     language: python
     types: [python]
-    args: ["cc"]
-    require_serial: false
-    additional_dependencies: []
